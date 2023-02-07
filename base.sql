@@ -7,7 +7,8 @@ USE rankingJuego;
 -- CREACIÓN DE TABLAS
 CREATE OR REPLACE TABLE jugadores (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(3)
+    nombre VARCHAR(3),
+    puntos INT
 ) ENGINE=InnoDB;
 
 CREATE OR REPLACE TABLE mazos (

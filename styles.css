@@ -1,6 +1,59 @@
-.contenedorCentrado {
+table, tr, td, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td, th {
+    padding: 10px 20px;
+}
+
+th {
+    background-color: yellow;
+}
+
+body {
+    background-color: #000;
+    color: #FFF;
+}
+
+button {
+    background-color: #000;
+    border: 3px solid #FFF;
+    font: 20px Arial;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    margin: 50px;
+    color: #FFF;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #000;
+}
+
+.contenedor-centrado {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+select, input {
+    background-color: #000;
+    color: #FFF;
+    font: 20px Arial;
+    border: 3px solid #FFF;
+    height: 60px;
+    width: 200px;
+    padding-left: 20px;
+    outline: none;
+}
+
+h2 {
+    text-align: center;
+    font: 30px Arial;
 }
